@@ -18,6 +18,18 @@ Mình học tại UEH, thích giải bài toán khó, làm tool dùng hằng ng�
 
 ## `> ls projects/`
 
+### [ASCII Video C++](https://github.com/dakiemdarktharr/ascii-video-cpp) · desktop tool
+
+[![ASCII animation preview](https://raw.githubusercontent.com/dakiemdarktharr/dakiemdarktharr/main/assets/ascii-video/preview.gif)](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4)
+
+A C++ desktop app that converts images and videos into ASCII art, with live conversion previews and GitHub README export.
+
+Ứng dụng desktop C++ chuyển ảnh/video thành ASCII, có preview khi xử lý và xuất bộ file cho GitHub README.
+
+[Full ASCII video / Video đầy đủ](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4) · [Install & use / Cài đặt & sử dụng](https://github.com/dakiemdarktharr/ascii-video-cpp#build-on-windows)
+
+<sub>6-second GIF preview; full converted video: 31.6 seconds, without audio. Animation and characters belong to their respective creators.</sub>
+
 ### [Codeforces Alarm](https://github.com/dakiemdarktharr/code_force_alarm) · daily tool
 
 A Windows tray app for upcoming rated Codeforces contests, with desktop alerts and optional Gmail reminders.
