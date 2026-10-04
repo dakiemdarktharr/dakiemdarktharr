@@ -1,4 +1,13 @@
-<img src="assets/matcha-terminal.png" alt="KoiSee's matcha terminal with Chiikawa characters, a desktop computer, matcha and a chess knight." width="100%" />
+<img src="assets/cyberpunk-banner-final-1200x400.png" alt="KoiSee / dakiemdarktharr: a yellow-and-black cyberpunk fan-art banner with Luu Anh Khoi, HCMC / UEH and a Chiikawa-inspired character." width="100%" />
+
+<a href="https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/profile-intro/ascii-video.mp4">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-intro/mission-brief.png" />
+    <img src="assets/profile-intro/intro-once.gif" alt="KoiSee mission briefing: a 15-second ASCII intro plays once, then stops on Lưu Anh Khôi's profile card. UEH, HCMC; problem solving, algorithms, research and useful tools. Seeking hackathon teammates and research partners. Email: daethphate@gmail.com; Instagram: @koiluuuuv." width="100%" />
+  </picture>
+</a>
+
+<sub>[Replay with audio / Xem lại kèm âm thanh](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/profile-intro/ascii-video.mp4) · [Full-resolution card / Ảnh thông tin rõ nét](assets/profile-intro/mission-brief-original.png)</sub>
 
 # Lưu Anh Khôi · KoiSee
 
@@ -118,4 +127,4 @@ Chess / Cờ vua · League of Legends / Liên Minh Huyền Thoại · Matcha · 
 
 *One more idea. One more game. Maybe both.*
 
-<sub>Personal fan-art banner; Chiikawa characters belong to their respective creators. No affiliation. Project descriptions reviewed on 2026-10-01; research prototypes and demos are labeled separately from downloadable tools.</sub>
+<sub>Personal cyberpunk / Chiikawa-inspired fan art; referenced characters and designs belong to their respective creators. No affiliation. Project descriptions reviewed on 2026-10-01; research prototypes and demos are labeled separately from downloadable tools.</sub>
