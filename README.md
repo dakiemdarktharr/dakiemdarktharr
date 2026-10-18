@@ -19,7 +19,9 @@ Mình học tại UEH, thích giải bài toán khó, thiết kế luồng xử 
 
 I'm a UEH student in HCMC who enjoys problem solving, workflow design, useful software and research experiments. Sometimes a small idea refuses to stay small.
 
-🏆 **Team lead, NoSleepClub — First Prize, VNG AI Agent track · MLAI Hackathon 2026.**
+🏆 **Team lead, NoSleepClub · MLAI Hackathon 2026.**
+
+**1st Prize — VNG AI Agent track · 3rd Prize Overall — across all 3 tracks.**
 
 **Looking for hackathon teammates & research partners in HCMC — gặp offline được thì càng tốt.**
 
@@ -41,7 +43,7 @@ I'm a UEH student in HCMC who enjoys problem solving, workflow design, useful so
 
 I led the team and took responsibility for **workflow, frontend and backend**. The app connects conversational intake, source-backed retrieval, server-side policy checks, human review and audit history.
 
-Mình làm **Leader, phụ trách workflow, frontend và backend**. Đội đạt **giải Nhất bảng AI Agent do VNG chủ trì**. Bản trình diễn dùng quyền và thao tác hạ tầng mô phỏng của dự án.
+Mình làm **Leader, phụ trách workflow, frontend và backend**. Đội đạt **giải Nhất track VNG AI Agent** và **giải Ba chung cuộc (Overall) trên cả 3 track**. Bản trình diễn dùng quyền và thao tác hạ tầng mô phỏng của dự án.
 
 `TypeScript` · `Next.js` · `MongoDB` · `RAG` · `human-in-the-loop`
 
