@@ -13,118 +13,99 @@
 
 `dakiemdarktharr` · UEH · Ho Chi Minh City, Vietnam · UTC+7
 
-**Algorithms, research rabbit holes, and tools for everyday annoyances.**
+**Problem solving → clear workflows → working software.**
 
-Mình học tại UEH, thích giải bài toán khó, biến ý tưởng nghiên cứu thành thử nghiệm, và làm những tool nhỏ để cuộc sống bớt phiền. Thỉnh thoảng build chỉ vì thấy vui.
+Mình học tại UEH, thích giải bài toán khó, thiết kế luồng xử lý và biến ý tưởng thành ứng dụng dùng được. Build tool cho nhu cầu hằng ngày, prototype nghiên cứu, và vài project chỉ vì thấy vui.
 
-I study at UEH and explore problems through research prototypes, useful apps, and the occasional just-for-fun build.
+I'm a UEH student in HCMC who enjoys problem solving, workflow design, useful software and research experiments. Sometimes a small idea refuses to stay small.
 
-**Open to hackathon teammates & research partners in HCMC — gặp offline được thì càng tốt.**
+🏆 **Team lead, NoSleepClub — First Prize, VNG AI Agent track · MLAI Hackathon 2026.**
 
-[Email / Gửi email](mailto:daethphate@gmail.com) · [Instagram / Nhắn mình](https://www.instagram.com/koiluuuuv/) · [Public repos / Các repo công khai](https://github.com/dakiemdarktharr?tab=repositories)
+**Looking for hackathon teammates & research partners in HCMC — gặp offline được thì càng tốt.**
 
-## `> whoami`
+[Email / Gửi email](mailto:daethphate@gmail.com) · [Instagram / Nhắn mình](https://www.instagram.com/koiluuuuv/) · [Public repos / Repo công khai](https://github.com/dakiemdarktharr?tab=repositories)
 
-- **Core / Thế mạnh:** problem solving & algorithms · giải quyết vấn đề & tư duy thuật toán.
-- **Research / Tìm hiểu:** representation learning, game AI, simulation and computer vision · học biểu diễn, AI cho trò chơi, mô phỏng và thị giác máy tính.
-- **Build / Làm ứng dụng:** local-first desktop tools, learning apps and human-reviewed AI workflows · công cụ desktop, ứng dụng học tập và workflow AI có người kiểm duyệt.
-- **In these repos / Công nghệ trong các project:** C++ / Qt · Python · TypeScript / React / Next.js · Electron · SQLite / MongoDB.
+## `> whoami --practical`
 
-## `> ls featured/`
+- **Problem solving & algorithms / Tư duy bài toán:** breaking a problem into constraints, rules and edge cases · chia nhỏ bài toán, làm rõ điều kiện và các trường hợp biên.
+- **Workflow & full-stack / Từ luồng đến sản phẩm:** connecting user journeys, frontend, APIs and persistence; leading the workflow/frontend/backend work for NoSleepClub · nối các phần thành một luồng dùng được.
+- **Research engineering · still learning / Đang đào sâu:** model prototypes, data pipelines, baselines and reproducible evaluation · viết công cụ thử nghiệm, kiểm tra dữ liệu và phân biệt kết quả với giả thuyết.
 
-### [CAISSA-JEPA](https://github.com/dakiemdarktharr/caissa-jepa) · research in progress
+**Stack across these projects:** `C++ / Qt / OpenCV / FFmpeg` · `C# / .NET` · `Python / NumPy` · `TypeScript / React / Next.js / Electron` · `MongoDB`.
 
-Action-conditioned representation learning and planning experiments in two-player games, with explicit baselines, data audits and evaluation protocols.
+<sub>AI-assisted development. Project docs distinguish implemented behavior, validation evidence and open questions.</sub>
 
-Nghiên cứu học biểu diễn và lập kế hoạch trong trò chơi hai người; có baseline, kiểm tra dữ liệu và quy trình đánh giá. **Chưa xác lập lợi thế của JEPA so với baseline.**
+## `> ls selected_builds/`
 
-`Python` · `representation learning` · `game AI`
+### [NoSleepClub Support Desk](https://github.com/dakiemdarktharr/nosleepclub-support-desk) · hackathon team project
 
-[Research status / Trạng thái nghiên cứu](https://github.com/dakiemdarktharr/caissa-jepa/blob/main/GROUND_TRUTH.md)
+I led the team and took responsibility for **workflow, frontend and backend**. The app connects conversational intake, source-backed retrieval, server-side policy checks, human review and audit history.
 
-### [VNG Support · DOCRELAY_MLAI2026](https://github.com/dakiemdarktharr/DOCRELAY_MLAI2026) · hackathon demo
+Mình làm **Leader, phụ trách workflow, frontend và backend**. Đội đạt **giải Nhất bảng AI Agent do VNG chủ trì**. Bản trình diễn dùng quyền và thao tác hạ tầng mô phỏng của dự án.
 
-A conversational support workflow for MLAI 2026's VNG track: collect missing information, guide the requester, escalate to a human reviewer and retain decision history.
+`TypeScript` · `Next.js` · `MongoDB` · `RAG` · `human-in-the-loop`
 
-Project hackathon tiếp nhận yêu cầu qua hội thoại, hỏi thêm dữ kiện, chuyển người xử lý khi cần và lưu lịch sử quyết định. **Dữ liệu/quyền trong demo là mô phỏng, không phải hệ thống hỗ trợ chính thức của VNG.**
+[Live demo](https://vng-support.vercel.app/) · [Source & workflow](https://github.com/dakiemdarktharr/nosleepclub-support-desk#readme) · [Results announcement / Công bố kết quả](https://www.facebook.com/hutechuniversity/posts/pfbid02aDmtNL88SKFYwZUSW7gRMWut1BLRCKFEPxb2ZkhA3j2vRQx8P5epe2AaP63dhZ82l)
 
-`TypeScript` · `Next.js` · `MongoDB` · `human-in-the-loop`
+### [ASCII Video 4K](https://github.com/dakiemdarktharr/ascii_video_4k) · desktop & media tooling
 
-[Open demo / Mở demo](https://vng-support.vercel.app/) · [Source & guide / Mã nguồn & hướng dẫn](https://github.com/dakiemdarktharr/DOCRELAY_MLAI2026#readme)
+A native image/video-to-ASCII app with Full HD/4K presets, audio preservation, a bounded multithreaded frame pipeline, CLI and Docker support. Windows and Ubuntu installers are published.
+
+Chuyển ảnh/video thành ASCII, giữ âm thanh, xử lý theo pipeline có giới hạn hàng đợi và xuất media cho GitHub. Bản gốc được giữ riêng tại [ascii-video-cpp](https://github.com/dakiemdarktharr/ascii-video-cpp).
+
+`C++20` · `Qt` · `OpenCV` · `FFmpeg` · `CMake`
+
+[Download / Tải ứng dụng](https://github.com/dakiemdarktharr/ascii_video_4k/releases/latest) · [Source & guide](https://github.com/dakiemdarktharr/ascii_video_4k#readme) · [Validation record](https://github.com/dakiemdarktharr/ascii_video_4k/blob/main/VALIDATION.md)
+
+[![ASCII conversion demo, recorded with the original C++ version](assets/ascii-video/preview.gif)](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4)
+
+<sub>Conversion showcase from the original app; not a benchmark of the new 4K defaults. / Demo bản gốc, không phải phép đo chất lượng bản 4K. [Full video](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4).</sub>
 
 ### [WordNest](https://github.com/dakiemdarktharr/WordNest) · offline-first learning
 
-Turn vocabulary TXT files into flashcards, quizzes and spaced-repetition practice. Desktop packages for Windows and macOS; study progress stays on your device.
+Turn vocabulary TXT files into flashcards, quizzes and deterministic spaced-repetition practice. Practice retries wrong answers while keeping first-attempt scores separate. Windows/macOS desktop apps and a web version.
 
-Nhập TXT để học từ vựng bằng flashcard, luyện gõ, quiz và lịch ôn cách quãng. Giao diện tiếng Việt, có bộ cài desktop; lịch ôn dùng quy tắc rõ ràng, không phải AI sinh nội dung.
+Nhập TXT, học từ vựng, luyện đến khi đúng và lưu tiến độ tại máy. Không cần tài khoản hay AI sinh nội dung cho luồng học desktop.
 
-`TypeScript` · `React` · `Electron` · `spaced repetition`
+`TypeScript` · `React` · `Electron` · `local-first`
 
-[Download / Tải ứng dụng](https://github.com/dakiemdarktharr/WordNest/releases/latest) · [Hướng dẫn tiếng Việt](https://github.com/dakiemdarktharr/WordNest/blob/HEAD/docs/INSTALL.vi.md)
+[Try on web / Dùng thử](https://wordnest-eta.vercel.app/) · [Download / Tải desktop](https://github.com/dakiemdarktharr/WordNest/releases/latest) · [Source & guide](https://github.com/dakiemdarktharr/WordNest#readme)
 
-<a href="https://github.com/dakiemdarktharr/WordNest#see-the-workflow"><img src="https://raw.githubusercontent.com/dakiemdarktharr/WordNest/refs/heads/codex/wordnest/docs/demo/07-practice-dark.png" alt="WordNest demo: Vietnamese vocabulary practice in dark mode, with answer feedback and a retry-until-correct queue." width="680" /></a>
+<a href="https://github.com/dakiemdarktharr/WordNest#see-the-workflow"><img src="https://raw.githubusercontent.com/dakiemdarktharr/WordNest/refs/heads/codex/wordnest/docs/demo/07-practice-dark.png" alt="WordNest: Vietnamese vocabulary practice with answer feedback and a retry-until-correct queue. Screenshot from a scripted web-build demo." width="680" /></a>
 
-<sub>Web-build screenshot with sample vocabulary / Ảnh demo bản web với từ vựng mẫu. Click for the full workflow / Bấm để xem đầy đủ.</sub>
+### [TreasureTrove](https://github.com/dakiemdarktharr/treasuretrove) · a workbench for electronic components
 
-### [Who's free, gdmit](https://github.com/dakiemdarktharr/WHOS_FREE_GDMIT) · group scheduling
+Search, photograph and organize parts, track quantities, and keep each account's inventory separate. Includes authentication, owner-scoped data access, image processing and stock-update workflows.
 
-Everyone marks their busy hours; the app ranks shared times with the fewest conflicts, taking timezones into account.
+Sổ linh kiện cá nhân: tìm theo mã/công dụng, thêm ảnh, tăng giảm số lượng và quản lý bộ sưu tập riêng cho từng tài khoản.
 
-Đỡ hỏi “khi nào mọi người rảnh?” trong group chat: mỗi người đánh dấu giờ bận, ứng dụng tìm khung giờ ít trùng lịch nhất.
+`TypeScript` · `Next.js` · `MongoDB` · `Sharp`
 
-`TypeScript` · `Next.js` · `MongoDB` · `Socket.io` · `Three.js`
+[Open app / Mở ứng dụng](https://treasuretrove-tau.vercel.app/) (cần tài khoản / account required) · [Source & setup](https://github.com/dakiemdarktharr/treasuretrove#readme)
 
-[Open demo / Mở demo](https://whos-free-gdmit.vercel.app/) · [Source & setup / Mã nguồn & hướng dẫn](https://github.com/dakiemdarktharr/WHOS_FREE_GDMIT#readme)
+## `> ls research_and_learning/`
 
-## `> ls more_projects/`
+- **[CAISSA-JEPA](https://github.com/dakiemdarktharr/caissa-jepa)** — Action-conditioned representation-learning and planning experiments in two-player games, with rule checks, data audits and baseline comparisons. / Thử nghiệm học biểu diễn và lập kế hoạch; **JEPA's advantage remains unproven / chưa chứng minh JEPA tốt hơn baseline**. [Current research status](https://github.com/dakiemdarktharr/caissa-jepa/blob/main/GROUND_TRUTH.md).
+- **[Fly Piano Lab](https://github.com/dakiemdarktharr/eureka-fly-piano)** — Motor-readout optimization and 3D neuron-activity inspection in a fly-circuit simulation. / Thử nghiệm tối ưu điều khiển và trực quan hóa mô phỏng; không phải bằng chứng ruồi sinh học học piano. [V5 scope & results](https://github.com/dakiemdarktharr/eureka-fly-piano/blob/main/project/v5/README_vi.md).
+- **[Palm Studio / Palmistry](https://github.com/dakiemdarktharr/palmistry)** — Local palm-line annotation, keypoint/CV pipelines, masked-label training and data-integrity checks. / Công cụ dán nhãn, pipeline thị giác máy tính và thử nghiệm mô hình; **real-world accuracy is not established / chưa xác nhận độ chính xác trên dữ liệu thật**. [Current keypoint workflow](https://github.com/dakiemdarktharr/palmistry/blob/main/docs/KEYPOINT_PIPELINE.md).
+- **[And I Wonder](https://github.com/dakiemdarktharr/And_I_Wonder)** — A bilingual mathematics/quant self-study studio with lessons, progress tracking and interactive numerical labs. / Biến việc tự học thành ứng dụng có thể khám phá; đây là project học tập, không phải chứng nhận năng lực nghiên cứu hay giao dịch. [Explore / Khám phá](https://and-i-wonder-quant.vercel.app/).
 
-### Useful tools / Công cụ dùng hằng ngày
+## `> ls small_tools_and_side_quests/`
 
-- **[Codeforces Alarm](https://github.com/dakiemdarktharr/code_force_alarm)** — Windows tray reminders for rated Codeforces contests, with desktop alerts and optional Gmail. / Nhắc contest Codeforces qua Windows và Gmail tùy chọn. [Download / Tải](https://github.com/dakiemdarktharr/code_force_alarm/releases/latest).
-
-<a href="https://github.com/dakiemdarktharr/code_force_alarm#readme"><img src="https://raw.githubusercontent.com/dakiemdarktharr/code_force_alarm/main/docs/images/app.png" alt="Codeforces Alarm: select a contest division, configure optional email and test Windows notifications." width="340" /></a>
-
-<sub>App interface / Giao diện ứng dụng.</sub>
-
-- **[ASCII Video C++](https://github.com/dakiemdarktharr/ascii-video-cpp)** — C++20/Qt/OpenCV image-to-ASCII and video-to-ASCII desktop app, with MP4/GIF export. / Chuyển ảnh, video thành ASCII và xuất media cho README; video xuất ra chưa có âm thanh. [Download / Tải](https://github.com/dakiemdarktharr/ascii-video-cpp/releases/latest).
-
-**▶ ASCII in action / Demo ASCII**
-
-[![ASCII animation preview](assets/ascii-video/preview.gif)](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4)
-
-[Full video / Video đầy đủ](https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/ascii-video/ascii-video.mp4) · [How it works / Cách sử dụng](https://github.com/dakiemdarktharr/ascii-video-cpp#use-the-app)
-
-<sub>Converted animation showcase; underlying animation and characters belong to their respective creators.</sub>
-
-### AI workflows / Workflow AI
-
-- **[Escala](https://github.com/dakiemdarktharr/Escala)** — Seller-support MVP with message triage, evidence-backed reply drafts and human approval. / Hộp thư hỗ trợ người bán, phân loại yêu cầu và duyệt phản hồi. **Synthetic demo; delivery is simulated, no real marketplace messages or order changes. / Demo mô phỏng, không gửi tin hay sửa đơn hàng thật.**
-
-### Experiments & practice / Thử nghiệm & luyện tập
-
-- **[Fly Piano Lab](https://github.com/dakiemdarktharr/eureka-fly-piano)** — Motor-readout optimization, neuron-activity inspection and 3D replay in a fly simulation. / Thử nghiệm điều khiển vận động và trực quan hóa tín hiệu neuron. **Simulation research, not proof of biological piano learning or a whole-brain digital twin.**
-
-<a href="https://github.com/dakiemdarktharr/eureka-fly-piano/blob/main/project/v5/README_vi.md"><img src="https://raw.githubusercontent.com/dakiemdarktharr/eureka-fly-piano/main/project/v5/paper/figures/anatomy.jpg" alt="Fly Piano v5: neural anatomy viewer, model activity trace and 412-channel activity heatmap." width="680" /></a>
-
-<sub>V5 simulation viewer / Giao diện mô phỏng V5. Model signals, not biological recordings / Tín hiệu mô hình, không phải đo đạc sinh học.</sub>
-
-- **[Palmistry](https://github.com/dakiemdarktharr/palmistry)** — Python palm-line segmentation experiment. / Thử nghiệm phân đoạn đường chỉ tay; repo chưa kèm dataset hoặc checkpoint huấn luyện. Image processing, not personality or future prediction.
-- **[No vibe, only brute force](https://github.com/dakiemdarktharr/code_force-no-vibe-only-brute-force-)** — My C++ competitive-programming practice log. / Góc luyện thuật toán C++: bài nhỏ, nghĩ không nhỏ.
+- **[Who's free, gdmit](https://github.com/dakiemdarktharr/WHOS_FREE_GDMIT)** — Group scheduling with timezone-aware conflict ranking and a Three.js visual interface. / Bớt hỏi “khi nào mọi người rảnh?” trong group chat. [Live demo](https://whos-free-gdmit.vercel.app/).
+- **[Codeforces Alarm](https://github.com/dakiemdarktharr/code_force_alarm)** — A C#/.NET Windows tray app for rated-contest reminders, desktop alerts and optional Gmail OAuth. / Nhắc contest, giữ trạng thái qua restart và xử lý lần gửi chưa rõ kết quả. [Download](https://github.com/dakiemdarktharr/code_force_alarm/releases/latest).
+- **[No vibe, only brute force](https://github.com/dakiemdarktharr/code_force-no-vibe-only-brute-force-)** — My C++ algorithm-practice log. / Góc luyện thuật toán: bài nhỏ, nghĩ không nhỏ.
 
 ## `> team_up --location hcm`
 
-Have a research question, a hackathon, or a small useful idea? Let's figure it out together. I bring problem solving and algorithmic thinking; we can discuss the topic, roles and schedule.
+Looking for **hackathon teammates, research partners and people who want to try the tools**. I can help frame the problem, design the workflow and connect frontend/backend pieces. For research, I'd love to work on a concrete question, a baseline and an experiment we can actually inspect.
 
-Bạn có đề tài nghiên cứu, hackathon muốn tham gia hoặc một tool muốn làm? Mình tìm bạn ở **TP.HCM có thể gặp offline**, cùng chia việc, thử nghiệm và build đến nơi đến chốn.
-
-**Say hi with / Nhắn mình kèm:** your idea or event, what you want to work on, and when you can meet · ý tưởng/cuộc thi, phần bạn muốn làm và lịch có thể gặp.
+Mình tìm bạn ở **TP.HCM có thể gặp offline** để thi hackathon, nghiên cứu khoa học hoặc build tool hữu ích. Nhắn mình ý tưởng/cuộc thi, phần bạn muốn làm và lịch có thể gặp — cùng chia việc rồi làm đến nơi đến chốn.
 
 [daethphate@gmail.com](mailto:daethphate@gmail.com) · [@koiluuuuv](https://www.instagram.com/koiluuuuv/)
-
-## `> cat side_quests.txt`
 
 Chess / Cờ vua · League of Legends / Liên Minh Huyền Thoại · Matcha · Chiikawa
 
 *One more idea. One more game. Maybe both.*
 
-<sub>Personal cyberpunk / Chiikawa-inspired fan art; referenced characters and designs belong to their respective creators. No affiliation. Project descriptions reviewed on 2026-10-01; research prototypes and demos are labeled separately from downloadable tools.</sub>
+<sub>Selected public work reviewed on 2026-10-18. Research prototypes, learning projects and downloadable tools have different evidence limits. Fan-art characters and underlying demo animation belong to their respective creators; no affiliation.</sub>
