@@ -1,4 +1,4 @@
-<img src="assets/cyberpunk-banner-final-1200x400.png" alt="KoiSee / dakiemdarktharr: a yellow-and-black cyberpunk fan-art banner with Luu Anh Khoi, HCMC / UEH and a Chiikawa-inspired character." width="100%" />
+<img src="assets/cyberpunk-banner-final-1920x480.png" alt="KoiSee / dakiemdarktharr: Luu Anh Khoi, HCMC / UEH, algorithms, research and useful tools, with Chiikawa-inspired characters in a neon cyberpunk city." width="100%" />
 
 <a href="https://github.com/dakiemdarktharr/dakiemdarktharr/blob/main/assets/profile-intro/ascii-video.mp4">
   <picture>
