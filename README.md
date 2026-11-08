@@ -27,7 +27,7 @@ I led the team and took responsibility for workflow, frontend and backend. / Mì
 
 **Open to hackathon teammates and research partners in HCMC — gặp offline được thì càng tốt.**
 
-[Email / Gửi email](mailto:daethphate@gmail.com) · [Instagram / Nhắn mình](https://www.instagram.com/koiluuuuv/) · [Public repositories / Repo công khai](https://github.com/dakiemdarktharr?tab=repositories)
+[Portfolio / koi.terminal](https://koi-terminal.vercel.app/) · [Email / Gửi email](mailto:daethphate@gmail.com) · [Instagram / Nhắn mình](https://www.instagram.com/koiluuuuv/) · [Public repositories / Repo công khai](https://github.com/dakiemdarktharr?tab=repositories)
 
 ## `> whoami --strengths`
 
