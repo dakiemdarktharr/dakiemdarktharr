@@ -38,7 +38,7 @@ I led the team and handled workflow, frontend and backend. / Mình là Leader, p
 - **Useful software / Ứng dụng thực tế:** build local-first learning and desktop tools, web apps and multimedia utilities with clear setup and usage paths.
 - **Research prototyping / Thử nghiệm nghiên cứu:** work with baselines, data audits and controlled evaluation; label a prototype as a prototype and report inconclusive results honestly.
 
-**Stack across selected projects:** `Rust` · `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / PyTorch / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SQLite` · `MongoDB` · `MediaPipe`.
+**Stack across selected projects:** `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / PyTorch / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SQLite` · `MongoDB` · `MediaPipe`.
 
 <sub>Project descriptions reflect public repositories and their documented evidence. Research results below are not presented as proven scientific or production outcomes.</sub>
 
@@ -203,24 +203,6 @@ A one-owner research library and Windows bot for discovering papers, producing A
 [Source and setup](https://github.com/dakiemdarktharr/paper_tracker#readme)
 
 <a href='https://github.com/dakiemdarktharr/paper_tracker#readme'><img src='https://raw.githubusercontent.com/dakiemdarktharr/paper_tracker/main/docs/images/library.png' alt='Paper Tracker library screenshot populated with clearly labeled demonstration records.' width='720' /></a>
-
-### [NORA](https://github.com/dakiemdarktharr/NoSleepClub_zalo_hacks) · Vietnamese voice assistant · NoSleepClub team project
-
-A Windows voice-first assistant built around durable goals, checkpointed work and tools with scoped permissions and review. The LifeMate V2 research handoff contains a partial 64/1,082-update checkpoint; adapter quality is unscored, the target was not met and the project is not production-ready.
-
-[Architecture, evidence and handoff status](https://github.com/dakiemdarktharr/NoSleepClub_zalo_hacks#nora--nosleepclub)
-
-### [MIRA / LANTERN VN](https://github.com/dakiemdarktharr/NoSleepClub_team1avalanche) · evidence-led company research · NoSleepClub team project
-
-A local Rust assistant and company-research terminal that gathers sourced claims for a human to review. Its risk bands are evidence-screening aids, not a validated default-risk model. The Fuji registry is a proposal; no smart contract has been deployed.
-
-[Current implementation and limits](https://github.com/dakiemdarktharr/NoSleepClub_team1avalanche#readme)
-
-### [DataMate baseline](https://github.com/dakiemdarktharr/NoSleepClub_zalohacks_datamate) · Zalo AI Challenge 2026 · NoSleepClub team project
-
-Python utilities and a narrow deterministic baseline for Vietnamese business questions, built around typed data contracts, explicit abstention and reproducible evaluation. The repository records a **0.01900 official Public Score** for baseline v1 (41 answers, 959 abstentions). This is not a completed competition agent or a guarantee of PA = 1.
-
-[Roadmap, score and evaluation limits](https://github.com/dakiemdarktharr/NoSleepClub_zalohacks_datamate#trạng-thái)
 
 ### [Head orientation forecasting](https://github.com/dakiemdarktharr/ABC_IUEH) · BOXRR-23 research
 
