@@ -21,9 +21,11 @@ Mình học tại UEH, thích giải bài toán khó, thiết kế luồng xử 
 
 🏆 **NoSleepClub team lead · MLAI Hackathon 2026**
 
-**1st Prize — VNG AI Agent track · 3rd Prize Overall — across all three tracks.** These are two distinct awards received by the team.
+**1st Prize — VNG AI Agent track · 3rd Prize Overall — across all three tracks.** Two distinct awards received by the team.
 
-I led the team and took responsibility for workflow, frontend and backend. / Mình là Leader, phụ trách workflow, frontend và backend.
+I led the team and handled workflow, frontend and backend. / Mình là Leader, phụ trách workflow, frontend và backend.
+
+🪐 **NASA Space Apps Challenge 2026 · Galactic Problem Solver participation certificate** · [Touch The Sky project and certificate](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex#nasa-space-apps-2026).
 
 **Open to hackathon teammates and research partners in HCMC — gặp offline được thì càng tốt.**
 
@@ -36,7 +38,7 @@ I led the team and took responsibility for workflow, frontend and backend. / Mì
 - **Useful software / Ứng dụng thực tế:** build local-first learning and desktop tools, web apps and multimedia utilities with clear setup and usage paths.
 - **Research prototyping / Thử nghiệm nghiên cứu:** work with baselines, data audits and controlled evaluation; label a prototype as a prototype and report inconclusive results honestly.
 
-**Stack across selected projects:** `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SQLite` · `MongoDB`.
+**Stack across selected projects:** `Rust` · `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / PyTorch / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SQLite` · `MongoDB` · `MediaPipe`.
 
 <sub>Project descriptions reflect public repositories and their documented evidence. Research results below are not presented as proven scientific or production outcomes.</sub>
 
@@ -166,6 +168,66 @@ Công cụ dán nhãn và thử nghiệm phân đoạn đường lòng bàn tay.
 
 [Keypoint workflow](https://github.com/dakiemdarktharr/palmistry/blob/main/docs/KEYPOINT_PIPELINE.md) · [Verification and limitations](https://github.com/dakiemdarktharr/palmistry/blob/main/docs/verification.md)
 
+## `> ls recent_builds_2026/`
+
+A mix of personal projects and NoSleepClub team builds from October–November 2026.
+
+### [Nếp Phố](https://github.com/dakiemdarktharr/NoSleepClub_HIST) · Ho Chi Minh City walking guide · NoSleepClub team project
+
+A mobile guide for a three-stop, roughly 0.7 km exterior walk from the Central Post Office to Independence Palace via Notre Dame Cathedral. It has sourced English/Vietnamese guidance, optional device narration, maps and saved progress. Camera-based place matching is experimental: the published reference set is small and field accuracy has not been established.
+
+[Open the published walk](https://nosleepclub-hist-connected.vercel.app/?tour=central-architecture-v1) · [App and recognition workbench](https://nosleepclub-hist-connected.vercel.app/) · [Source](https://github.com/dakiemdarktharr/NoSleepClub_HIST#readme)
+
+<a href='https://nosleepclub-hist-connected.vercel.app/?tour=central-architecture-v1'><img src='assets/nep-pho-walk.png' alt='Live Nếp Phố public walk page, showing the Central Post Office and the three-stop itinerary. Captured 2026-11-16.' width='720' /></a>
+
+### [Touch The Sky](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex) · SPHEREx learning adventure · NoSleepClub team project
+
+A space-learning story with short lessons and a viewer for real SPHEREx infrared observations. Learners can compare images, inspect masks and metadata, and see what the data can and cannot support. The lessons have not been evaluated in a formal classroom study.
+
+[Play the bilingual app](https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn) · [Watch the 30-second pitch](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex/releases/download/pitch-v3/Touch-the-Sky-30s-v3.mp4) · [Project and certificate](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex#nasa-space-apps-2026)
+
+<a href='https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn'><img src='https://raw.githubusercontent.com/dakiemdarktharr/nosleepclub_nasa_spherex/main/docs/assets/readme/spaceship.png' alt='Touch The Sky in-product spacecraft scene used to introduce the SPHEREx learning mission.' width='720' /></a>
+
+### [Nối](https://github.com/dakiemdarktharr/noi-a-new-system-of-talking-to-ai) · personal gesture vocabulary
+
+A browser app for collecting short labeled hand-gesture clips, training a personal recognition model and combining recognized gestures into phrases. Camera inference and training run on the device; a private cloud archive is optional. This is a personal-gesture tool, not a general sign-language translator, and independent recognition accuracy has not been established.
+
+[Open Nối](https://noi-ai.vercel.app/) · [Research, dataset and model limits](https://github.com/dakiemdarktharr/noi-a-new-system-of-talking-to-ai#tài-liệu)
+
+<a href='https://noi-ai.vercel.app/'><img src='assets/noi-app.png' alt='Live Nối interface with the camera off and no gesture model trained yet; the screen shows recognition, model import and custom training controls. Captured 2026-11-16.' width='720' /></a>
+
+### [Paper Tracker](https://github.com/dakiemdarktharr/paper_tracker) · research reading and delivery
+
+A one-owner research library and Windows bot for discovering papers, producing AI-assisted Vietnamese summaries with page-linked evidence, and emailing eligible PDFs through Gmail. The public repository includes a demo with synthetic entries. The bot is not a 24/7 service, and novelty scores are reading aids rather than proof of a scientific first.
+
+[Source and setup](https://github.com/dakiemdarktharr/paper_tracker#readme)
+
+<a href='https://github.com/dakiemdarktharr/paper_tracker#readme'><img src='https://raw.githubusercontent.com/dakiemdarktharr/paper_tracker/main/docs/images/library.png' alt='Paper Tracker library screenshot populated with clearly labeled demonstration records.' width='720' /></a>
+
+### [NORA](https://github.com/dakiemdarktharr/NoSleepClub_zalo_hacks) · Vietnamese voice assistant · NoSleepClub team project
+
+A Windows voice-first assistant built around durable goals, checkpointed work and tools with scoped permissions and review. The LifeMate V2 research handoff contains a partial 64/1,082-update checkpoint; adapter quality is unscored, the target was not met and the project is not production-ready.
+
+[Architecture, evidence and handoff status](https://github.com/dakiemdarktharr/NoSleepClub_zalo_hacks#nora--nosleepclub)
+
+### [MIRA / LANTERN VN](https://github.com/dakiemdarktharr/NoSleepClub_team1avalanche) · evidence-led company research · NoSleepClub team project
+
+A local Rust assistant and company-research terminal that gathers sourced claims for a human to review. Its risk bands are evidence-screening aids, not a validated default-risk model. The Fuji registry is a proposal; no smart contract has been deployed.
+
+[Current implementation and limits](https://github.com/dakiemdarktharr/NoSleepClub_team1avalanche#readme)
+
+### [DataMate baseline](https://github.com/dakiemdarktharr/NoSleepClub_zalohacks_datamate) · Zalo AI Challenge 2026 · NoSleepClub team project
+
+Python utilities and a narrow deterministic baseline for Vietnamese business questions, built around typed data contracts, explicit abstention and reproducible evaluation. The repository records a **0.01900 official Public Score** for baseline v1 (41 answers, 959 abstentions). This is not a completed competition agent or a guarantee of PA = 1.
+
+[Roadmap, score and evaluation limits](https://github.com/dakiemdarktharr/NoSleepClub_zalohacks_datamate#trạng-thái)
+
+### [Head orientation forecasting](https://github.com/dakiemdarktharr/ABC_IUEH) · BOXRR-23 research
+
+Predict 20 future head orientations from 400 observed quaternions. JEPA-TCN is the current development candidate; it recorded 4.842644° on a sampled development evaluation. This is not an official test score or evidence of reliable superiority; the final holdout remains sealed and trained weights are not in the public repo.
+
+[Results and limitations](https://github.com/dakiemdarktharr/ABC_IUEH#results) · [Data provenance and protocol](https://github.com/dakiemdarktharr/ABC_IUEH#documentation)
+
 ## `> team_up --location hcm`
 
 I bring problem solving, workflow design and hands-on product building. I’m looking for hackathon teammates, research partners and people who want to test useful tools.
@@ -178,4 +240,6 @@ Chess / Cờ vua · League of Legends / Liên Minh Huyền Thoại · Matcha · 
 
 *One more idea. One more game. Maybe both.*
 
-<sub>Selected public projects reviewed on 2026-10-24. The image for Who’s free, gdmit is a live landing-page capture; the room flow was not revalidated. Public screenshots are included where available. Fan-art characters and demo media belong to their respective creators; no affiliation.</sub>
+<sub>Public repositories reviewed on 2026-11-16. Screenshots marked as live captures show the public app at the time captured; they do not independently validate every workflow. Research results and competition scores are linked to their stated samples and limits. Fan-art characters and demo media belong to their respective creators; no affiliation.</sub>
+
+
