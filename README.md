@@ -38,11 +38,11 @@ I led the team and handled workflow, frontend and backend. / Mình là Leader, p
 - **Useful software / Ứng dụng thực tế:** build local-first learning and desktop tools, web apps and multimedia utilities with clear setup and usage paths.
 - **Research prototyping / Thử nghiệm nghiên cứu:** work with baselines, data audits and controlled evaluation; label a prototype as a prototype and report inconclusive results honestly.
 
-**Stack across selected projects:** `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / PyTorch / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SQLite` · `MongoDB` · `MediaPipe`.
+**Stack across selected projects:** `C++20` · `Qt` · `OpenCV` · `FFmpeg` · `C# / .NET` · `Python / PyTorch / NumPy` · `TypeScript` · `React / Next.js / Electron` · `SwiftUI / AppKit` · `Kotlin / Room` · `SQLite` · `MongoDB` · `MediaPipe`.
 
 <sub>Project descriptions reflect public repositories and their documented evidence. Research results below are not presented as proven scientific or production outcomes.</sub>
 
-## `> ls team_and_product_builds/`
+## `> ls featured_projects/`
 
 ### [NoSleepClub Support Desk](https://github.com/dakiemdarktharr/nosleepclub-support-desk) · award-winning hackathon project
 
@@ -55,6 +55,32 @@ Mình phụ trách workflow, frontend và backend. Đội đạt **giải Nhất
 [Live demo](https://vng-support.vercel.app/) · [Workflow and source](https://github.com/dakiemdarktharr/nosleepclub-support-desk#readme) · [Official results announcement](https://www.facebook.com/hutechuniversity/posts/pfbid02aDmtNL88SKFYwZUSW7gRMWut1BLRCKFEPxb2ZkhA3j2vRQx8P5epe2AaP63dhZ82l)
 
 <a href='https://github.com/dakiemdarktharr/nosleepclub-support-desk#readme'><img src='https://raw.githubusercontent.com/dakiemdarktharr/nosleepclub-support-desk/main/docs/images/review-summary-desktop.png' alt='NoSleepClub Support Desk review screen with request summary and human decision workflow.' width='760' /></a>
+
+### [Kivuno](https://github.com/dakiemdarktharr/WWW) · collaborative AI coding workspace
+
+A cross-platform desktop workroom for coordinating Codex, Antigravity and Claude around a shared Git project. It brings together team chat, dependency-aware planning, parallel worktrees, session tracking and review of diffs and evidence before integration. Public desktop builds target Windows, Linux and macOS; its Avalanche Fuji checkout is a zero-value testnet demo.
+
+Không gian desktop phối hợp nhiều trợ lý AI trên cùng dự án Git, với lập kế hoạch, worktree song song và bước duyệt trước khi tích hợp.
+
+[Website and downloads](https://kivuno.vercel.app/) · [Source and platform notes](https://github.com/dakiemdarktharr/WWW#readme)
+
+### [FRI](https://github.com/dakiemdarktharr/FRI) · local-first calendar
+
+A local-first calendar for schedules and one-time deadlines, with resizable desktop widgets and source-assisted event intake. Extracted events wait for user review before saving. The repository documents a Windows desktop build, native Apple development and an Android local alpha; account sign-up and payments are not enabled.
+
+Lịch offline-first có widget desktop và đọc nguồn để gợi ý sự kiện; chỉ ghi lịch sau khi người dùng rà soát. Android đang ở alpha.
+
+[Website](https://getfri.vercel.app/) · [Installers](https://github.com/dakiemdarktharr/FRI/releases) · [Source and current limitations](https://github.com/dakiemdarktharr/FRI#readme)
+
+### [Touch The Sky](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex) · SPHEREx learning adventure · NoSleepClub team project
+
+A space-learning story with short lessons and a viewer for real SPHEREx infrared observations. Learners can compare images, inspect masks and metadata, and see what the data can and cannot support. The lessons have not been evaluated in a formal classroom study.
+
+[Play the bilingual app](https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn) · [Watch the 30-second pitch](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex/releases/download/pitch-v3/Touch-the-Sky-30s-v3.mp4) · [Project and certificate](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex#nasa-space-apps-2026)
+
+<a href='https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn'><img src='https://raw.githubusercontent.com/dakiemdarktharr/nosleepclub_nasa_spherex/main/docs/assets/readme/spaceship.png' alt='Touch The Sky in-product spacecraft scene used to introduce the SPHEREx learning mission.' width='720' /></a>
+
+## `> ls more_apps/`
 
 ### [Who’s free, gdmit](https://github.com/dakiemdarktharr/WHOS_FREE_GDMIT) · group scheduling
 
@@ -91,6 +117,14 @@ Công cụ chuyển ảnh/video thành ASCII, có giao diện desktop, CLI và D
 [Download / Tải ứng dụng](https://github.com/dakiemdarktharr/ascii_video_4k/releases/latest) · [Validation record](https://github.com/dakiemdarktharr/ascii_video_4k/blob/main/VALIDATION.md) · [Source and guide](https://github.com/dakiemdarktharr/ascii_video_4k#readme)
 
 <a href='https://github.com/dakiemdarktharr/ascii_video_4k#readme'><img src='https://raw.githubusercontent.com/dakiemdarktharr/ascii_video_4k/main/assets/ui-preview.png' alt='ASCII Video 4K desktop conversion interface.' width='720' /></a>
+
+### [Explainer Reels Skill](https://github.com/dakiemdarktharr/explainer_reels_skill) · Codex video workflow
+
+A Codex skill that turns a topic into a narrated vertical explainer, with a storyboard, self-contained HTML render and audit notes. Its documented default output is 1080 × 1920 at 30 fps; the render setup uses Node.js, Playwright, Chromium and FFmpeg.
+
+Skill cho Codex tạo video giải thích dọc từ nghiên cứu và lời dẫn đến storyboard, bản HTML và ghi chú kiểm tra.
+
+[Install and workflow](https://github.com/dakiemdarktharr/explainer_reels_skill#readme)
 
 ### [WordNest](https://github.com/dakiemdarktharr/WordNest) · offline-first vocabulary learning
 
@@ -144,6 +178,14 @@ Thử nghiệm học biểu diễn và lập kế hoạch có đối chứng. K�
 
 <sub>Historical V2.5 development figure; the paragraph above links to the newer V2.8/V2.9 status. / Biểu đồ V2.5 cũ; trạng thái mới hơn được ghi ở README hiện tại.</sub>
 
+### [MIM-LLM](https://github.com/dakiemdarktharr/MIM-LLM) · recurrent language-model research
+
+A research code prototype testing whether Memory In Memory cells can improve logical consistency in short story continuations. The repository includes model variants, recurrent and Transformer baselines, ablations, data tooling and an evaluation plan. It is still at planning/prototype stage: there is no validated benchmark result or publication.
+
+Thử nghiệm MIM cho mô hình ngôn ngữ nhỏ; đã có code và kế hoạch đánh giá, chưa có kết quả benchmark được xác nhận.
+
+[Research protocol and status](https://github.com/dakiemdarktharr/MIM-LLM#readme) · [Methods](https://github.com/dakiemdarktharr/MIM-LLM/blob/main/docs/METHODS.md)
+
 ### [Fly Piano Lab](https://github.com/dakiemdarktharr/eureka-fly-piano) · simulation research
 
 A research simulation for inspecting a 412-neuron fly motor circuit and its control of a simulated body. The V5 diagnostic matched 17 of 100 requested note events (precision 31.48%, recall 17%, F1 22.08%). This is model behavior in simulation, not biological piano learning or a whole-brain digital twin.
@@ -180,14 +222,6 @@ A mobile guide for a three-stop, roughly 0.7 km exterior walk from the Central P
 
 <a href='https://nosleepclub-hist-connected.vercel.app/?tour=central-architecture-v1'><img src='assets/nep-pho-walk.png' alt='Live Nếp Phố public walk page, showing the Central Post Office and the three-stop itinerary. Captured 2026-11-16.' width='720' /></a>
 
-### [Touch The Sky](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex) · SPHEREx learning adventure · NoSleepClub team project
-
-A space-learning story with short lessons and a viewer for real SPHEREx infrared observations. Learners can compare images, inspect masks and metadata, and see what the data can and cannot support. The lessons have not been evaluated in a formal classroom study.
-
-[Play the bilingual app](https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn) · [Watch the 30-second pitch](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex/releases/download/pitch-v3/Touch-the-Sky-30s-v3.mp4) · [Project and certificate](https://github.com/dakiemdarktharr/nosleepclub_nasa_spherex#nasa-space-apps-2026)
-
-<a href='https://nosleepclub-nasa-spherex.vercel.app/?lang=en#learn'><img src='https://raw.githubusercontent.com/dakiemdarktharr/nosleepclub_nasa_spherex/main/docs/assets/readme/spaceship.png' alt='Touch The Sky in-product spacecraft scene used to introduce the SPHEREx learning mission.' width='720' /></a>
-
 ### [Nối](https://github.com/dakiemdarktharr/noi-a-new-system-of-talking-to-ai) · personal gesture vocabulary
 
 A browser app for collecting short labeled hand-gesture clips, training a personal recognition model and combining recognized gestures into phrases. Camera inference and training run on the device; a private cloud archive is optional. This is a personal-gesture tool, not a general sign-language translator, and independent recognition accuracy has not been established.
@@ -222,6 +256,6 @@ Chess / Cờ vua · League of Legends / Liên Minh Huyền Thoại · Matcha · 
 
 *One more idea. One more game. Maybe both.*
 
-<sub>Public repositories reviewed on 2026-11-16. Screenshots marked as live captures show the public app at the time captured; they do not independently validate every workflow. Research results and competition scores are linked to their stated samples and limits. Fan-art characters and demo media belong to their respective creators; no affiliation.</sub>
+<sub>Public repositories reviewed on 2026-11-25. Screenshots marked as live captures show the public app at the time captured; they do not independently validate every workflow. Research results and competition scores are linked to their stated samples and limits. Fan-art characters and demo media belong to their respective creators; no affiliation.</sub>
 
 
